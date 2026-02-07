@@ -25,7 +25,7 @@ const App: React.FC = () => {
     return () => window.removeEventListener('scroll', handleScroll)
   }, [])
 
-  const GOOGLE_FORM_ACTION_URL = "https://script.google.com/macros/s/AKfycbx2_bK71mcrgxEGqohtxQXRbRA2JIvRiv6Qp0TXOz-4VbrzsxVmu5Iroh1xU_GlApjSng/exec" // Ex: https://docs.google.com/forms/d/e/KB_ID_DO_SEU_FORM/formResponse
+  const GOOGLE_FORM_ACTION_URL = "https://script.google.com/macros/s/AKfycbwdlkZs9awvzIyk-K-pvRzlDmBirEqdQdSUVmva-gO9mQxOXKTAoZFlO3EKjhzurnkRDQ/exec"
 
   const [formData, setFormData] = useState({
     name: '',
