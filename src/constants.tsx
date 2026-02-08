@@ -23,8 +23,7 @@ export const NAV_LINKS = [
   { name: 'Sobre', href: '#about' },
   { name: 'Habilidades', href: '#skills' },
   { name: 'Projetos', href: '#projects' },
-  { name: 'Serviços', href: '#services' },
-  { name: 'Contato', href: '#contact' },
+  { name: 'Serviços', href: '#services' }
 ];
 
 export const SKILLS: Skill[] = [

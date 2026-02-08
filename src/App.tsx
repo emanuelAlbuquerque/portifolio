@@ -79,7 +79,7 @@ const App: React.FC = () => {
       <div className="fixed top-0 left-0 w-full h-full bg-gradient-to-b from-blue-500/5 via-transparent to-transparent pointer-events-none z-0"></div>
 
       <nav className={`fixed top-0 w-full z-50 transition-all duration-300 ${scrolled ? 'bg-zinc-950/80 backdrop-blur-md border-b border-zinc-800/50 py-3' : 'bg-transparent py-5'}`}>
-        <div className="container mx-auto px-6 flex justify-between items-center">
+        <div className="mx-auto px-6 flex justify-between items-center">
           <a href="#home" className="text-2xl font-bold text-white flex items-center gap-2 group">
             <div className="w-10 h-10 bg-blue-600 rounded-lg flex items-center justify-center group-hover:bg-blue-500 transition-colors">
               <Code2 className="text-white w-6 h-6" />
@@ -136,7 +136,7 @@ const App: React.FC = () => {
             <div className="grid lg:grid-cols-12 gap-12 items-center">
               {/* Text Side */}
               <div className="lg:col-span-7 animate-[fadeIn_1s_ease-out] text-left">
-                <span className="inline-block px-4 py-1.5 rounded-full bg-blue-500/10 text-blue-400 text-sm font-medium border border-blue-500/20 mb-6">
+                <span className="inline-block px-4 py-1.5 rounded-full bg-blue-500/10 text-blue-400 text-sm font-medium border border-blue-500/20 mb-6 mt-2 lg:mt-0">
                   Disponível para novos projetos
                 </span>
                 <h1 className="text-5xl md:text-7xl font-bold text-white mb-4 tracking-tight">
